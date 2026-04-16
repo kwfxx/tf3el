@@ -20,7 +20,7 @@ SALT = "سِرّ_خاص_قوي_غير_مُشارَك"
 
 full = SALT + "|" + concat
 h = hashlib.sha256(full.encode()).hexdigest()
-hash=['641427704b311baafb1888f5f9f5c649359e18917c57e3b860e55213a93348e4','294b6221ca2add3f64f9d583b20bce571fc61daf1acb85687b4d73342d1b6c53']
+hash=['641427704b311baafb1888f5f9f5c649359e18917c57e3b860e55213a93348e4','294b6221ca2add3f64f9d583b20bce571fc61daf1acb85687b4d73342d1b6c53','5492156e8956344a4cfd3ec430368d2d85a4c8fca36ce8a4ca7e2f30f6eb25b0']
 if h in hash:
     print('good / هاتفك مصرح للدخول ')
     pass
